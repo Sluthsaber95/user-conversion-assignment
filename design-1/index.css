@@ -1,0 +1,20 @@
+
+.blog {
+  font-family: 'helvetica neue', arial;
+  text-transform: uppercase;
+  background: #EFF2F5;
+  width: 2876px;
+  height: 986px;
+}
+
+.blog-post-title {
+  font-size: 15px;
+  color: #384C5C;
+  font-weight: 600;
+}
+
+.blog__card {
+  width: 708px;
+  height: 696px;
+  background: #FFFFFF;
+}
