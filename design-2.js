@@ -1,3 +1,5 @@
+"use strict";
+
 {
   function insertAfter(newNode, targetNode) {
     targetNode.parentNode.insertBefore(newNode, targetNode.nextSibling);
