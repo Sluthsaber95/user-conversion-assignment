@@ -8,7 +8,7 @@ a lot of the clients website's CSS were utilised as much as possible; things nor
 
 - Handling of Typography - adopted Calibri from UC website
 - Normalise CSS + additional normalisation CSS scripts
-- Using ES6 scripts (except template literals) - classes & arrow functions requires more lines of core JS runtime code.
+- Using ES6 (except template literals) - classes & arrow functions requires more lines of core JS runtime code.
 
 The aim was to keep it running as fast as possible - using ES5 JavaScript.
 
@@ -22,3 +22,7 @@ Please Note: CSS Flexbox was used, thus website compatibility only starts at IE1
 ## Instructions of Use
 Simply copy and paste the scripts **design-1.js** or **design-2.js** into Chrome Devtools console. The resulting outcome would be the the appearance of the component specified.
 
+### Optimised scripts
+These scripts **design-1-optimised.js** & **design-2-optimised.js** were simply;
+1. Copy and pasted into [Babel](https://babeljs.io/repl) and compiled to ES5 - remove the use of string template, require less processing by the browser
+2. This was then copied and pasted into [JSCompress](https://jscompress.com/) - the tool claim to reduce the size by up to 80% of there original size. Because the code written was very little, compress feel between 1% - 2% compression of original size.
