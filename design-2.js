@@ -11,7 +11,9 @@
       margin: 0;
       background: #244477;
     }
-    
+    .cta {
+      visibility: hidden
+    }
     @media(min-width: 0px){
       .more-info {
         font-family: "Calibre", helvetica, sans-serif;
