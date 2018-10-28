@@ -1,6 +1,15 @@
-# Activities
+# User Conversion Assigment
 
 #### Date: 28 / 10 / 2018
+
+## Introduction
+This project consists of files named design-1 & design-2 that are can be pasted into Chrome Developer Tools, whilst on the User Conversion Manchester website. The result will display 2 components that were developed to spec - I included a responsiveness touch to them.
+
+**Component 1**
+![component-1](design-1.png)
+
+**Component 2**
+![component-2](design-2.png)
 
 ## Lightweight Script
 All injected scripts are to made as light weight as possible. So that it hardly impacts the performance of the client website;
